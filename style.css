@@ -1,0 +1,127 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    
+}
+.card{
+
+    width: 450px;
+    height: 550px;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 0;
+
+
+}
+
+#upperImg{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    
+
+}
+
+h1{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    position: center;
+    padding-left: 20%;
+    display: block;
+    
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-left: 15%;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+#actionBox{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    background: hsl(225, 100%, 98%);
+    align-content: center;
+    align-items: center;
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    align-items: flex-start;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+    padding: 5px;
+
+    
+   
+}
+
+#actionBoxImg{
+    display: block;
+    
+   
+}
+
+.button{
+    display: block;
+    margin: 0 auto;
+    margin-right: 10px;
+
+    background: none;
+    border: none;
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+
+}
+button{
+    width: 60%;
+    height: 7%;
+    background-color: blue;
+    color:white;
+    border-radius: 10px;
+    border:0;
+    margin-left: 20%;
+    margin-bottom: 2px;
+    text-align: center;
+    align-items: center;
+    font-size: 9px;
+    margin-top: 2px;
+
+}
+
+.button2{
+    background-color: white;
+    color:gray;
+    font-size: 12px;
+
+
+}
+#change{
+    font-size: 14px;
+
+}
+#fn{
+    margin-top: 0;
+
+}
