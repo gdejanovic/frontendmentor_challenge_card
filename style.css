@@ -2,7 +2,7 @@
 .attribution a { color: hsl(228, 45%, 44%); }
 
 body{
-    background-image: URL("images/pattern-background-desktop.svg");
+    background-image: URL("/frontendmentor_challenge_card/images/pattern-background-desktop.svg");
     background-color: hsl(225, 100%, 94%);
     background-repeat: no-repeat;
     background-size: 100%;
