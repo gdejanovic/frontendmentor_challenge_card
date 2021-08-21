@@ -2,11 +2,10 @@
 .attribution a { color: hsl(228, 45%, 44%); }
 
 body{
-    background-image: URL("/frontendmentor_challenge_card/images/pattern-background-desktop.svg");
+    background-image: URL("images/pattern-background-desktop.svg");
     background-color: hsl(225, 100%, 94%);
     background-repeat: no-repeat;
     background-size: 100%;
-    z-index:-10;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -15,7 +14,6 @@ body{
     align-items: center;
     margin: 0;
     padding: 0;
-
     
 }
 .card{
