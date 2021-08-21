@@ -24,14 +24,16 @@
   device<br> anywhere you like!</p>
 <div id="actionBox">
   <p id="actionBoxText">
-    <div><img src="images/icon-music.svg" alt="" style="display:block"></div>
+    <div><img src="images/icon-music.svg" alt="" style="display:block; position: absolute; margin-left: -100px; z-index:2;margin-top: -22px; "></div>
     <div><b style="color:black">Annual Plan</b><br>
    <b><h4 id="fn">$59.99/year</h4></div>
   
    <button class="button"><a href="#" id="change">Change</a></button>
 </div>
 
- <button><h2>Proceed to Payment</h2></button>
+
+ <button><h2 onmouseover="this.style.backgroundColor='color: hsl(255, 255, 52%);';return true;"
+  onmouseout="this.style.backgroundColor='color: hsl(245, 75%, 52%);';return true;">Proceed to Payment</h2></button>
  <button class="button2"><h3> Cancel Order</h3></button>
  
  </div>
